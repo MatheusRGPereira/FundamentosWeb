@@ -1,25 +1,49 @@
-/* Estilização da pagina de personagens */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
 
-.descricao{
+.body{
+    font-family: "kanit", sans-serif ;
+}
+
+/* Estilização dos cards de personagens */
+.content{
     display: flex;
-text-align: flex start;
-padding: 5px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.textosecundario{
+    color: #6f7274;
+    padding-bottom: 20px;
+}
+.bottontext{
+    color: #ad201bb4;
+}
 
+.titulo{
+    color: #c00f0f;
 }
-.nome{
-text-align: center;
-color:#ff0000;
+.card {
+    background: #fff;
+    box-shadow: 0px 2px 18px #7b000085;
+    border-radius: 20px;
+    margin: 50px 50px;
+}
 
+.mediacard{
+    background: center/cover;
+    height: 300px;
+    width: 100%;
 }
-.Personagens{
-display: flex;
-flex-flow: row wrap;
-justify-content: flex-end;
-align-items: center;
+
+.toplocard {
+    padding: 20px;
+    padding-top: 0px ;
 }
-.border{
-    border-radius: 30px;
+
+.bottoncard {
+    padding: 20px;
 }
+
 
 /* Estilização do rodapé */
 .rodape{
@@ -52,6 +76,9 @@ text-align: center;
     justify-content: center;
     align-items: center;
 
+}
+.container h1{
+    color: #c00f0f;
 }
 .mb-50{
 margin-bottom: 50px;
